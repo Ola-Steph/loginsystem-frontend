@@ -1,0 +1,124 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set basic body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Basic typography */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout helpers */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Form styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Align items centrally in forms */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-2 {
+    margin-top: 20px;
+  }
+  
+  .mt-4 {
+    margin-top: 40px;
+  }
+  
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Navbar (optional, if you have one) */
+  .navbar {
+    background-color: #0070f3;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 0 15px;
+  }
+  
+  .navbar a:hover {
+    color: #e0e0e0;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  

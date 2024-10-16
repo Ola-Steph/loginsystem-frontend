@@ -1,0 +1,21 @@
+/* Auth.module.css */
+
+.authButton {
+    background-color: red; /* Matches the navbar's red color */
+    color: white; /* White text for contrast */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.authButton:disabled {
+    background-color: #ccc; /* Grey out the button when disabled */
+    cursor: not-allowed;
+}
+
+.authButton:hover:not(:disabled) {
+    background-color: darkred; /* Darken the red on hover */
+}

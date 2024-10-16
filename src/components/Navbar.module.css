@@ -1,0 +1,65 @@
+/* Navbar.module.css */
+
+.navbar {
+    background-color: red; /* Red background */
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navContainer {
+    display: flex;
+    justify-content: space-between; /* Space between nav items */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .welcomeMessage {
+    color: #fff;
+    font-size: 16px;
+    flex: 1; /* Takes up available space on the left */
+    text-align: left;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    text-align: center; /* Centers the logo */
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: flex-end; /* Aligns nav links to the right */
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .logoutButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .logoutButton:hover {
+    text-decoration: underline;
+  }
+  
